@@ -1,3 +1,23 @@
+## instalacion de proyecto
+
+## Crear base de datos
+Nos creamos una base de datos, abrimos nuestro navegador favorito y escribimos en la barra de direcciones localhost/phpmyadmin - Bases de datos - carrito y damos clic en crear
+
+## Instalar Laravel Breeze
+Instalamos el paquete Laravel Breeze, el cual nos permite tener un registro de usuario y Login:
+- composer require laravel/breeze --dev
+- php artisan breeze:install
+- php artisan migrate
+- npm install
+- npm run dev
+
+## Instalamos el paquete darryldecode
+Este paquete es muy importante que nos sirve para tener nuestro carrito sin necesidad de introducir mucho código, simplemente agregamos unos métodos al controlados y listo ya lo tendremos funcionando, ahora a instalarlo:
+- composer require "darryldecode/cart"
+
+## Por ultimo ejecutamos para la migraciones
+- Php artisan migrate
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +84,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
